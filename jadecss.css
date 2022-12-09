@@ -303,7 +303,7 @@ input:checked + .slide-container .nav label { display: block; }
     
     .button {
       padding: 1.3em 3em;
-      font-size: 14px;
+      font-size: 13px;
       text-transform: uppercase;
       letter-spacing: 2.5px;
       font-weight: 500;
@@ -358,8 +358,7 @@ footer {
         color: #fff;
 }
 
-bu
-ton {
+.buton {
     --color: #52B69A;
     font-family: inherit;
     display: inline-block;
@@ -379,7 +378,7 @@ ton {
     background-color: #fff;
    }
    
-   buton:before {
+   .buton:before {
     content: "";
     position: absolute;
     z-index: -1;
@@ -389,22 +388,22 @@ ton {
     border-radius: 50%;
    }
    
-   buton:hover {
+   .buton:hover {
     color: #fff;
    }
    
-   buton:before {
+   .buton:before {
     top: 100%;
     left: 100%;
     transition: all .7s;
    }
    
-   buton:hover:before {
+   .buton:hover:before {
     top: -30px;
     left: -30px;
    }
    
-   buton:active:before {
+   .buton:active:before {
     background: #000;
     transition: background 0s;
    }
@@ -419,7 +418,7 @@ ton {
     }
     .somosjade{
         margin-top: 10px;
-        margin-left: -200px;
+        margin-left: -180px;
         margin-bottom: -40px;
         font-size: 35px;
     }
@@ -429,7 +428,7 @@ ton {
     }
     .button{
         
-        font-size: 8px;
+        font-size: 7px;
         margin-left: 20px;
     }
     nav{
@@ -439,9 +438,9 @@ ton {
         height: 70px;
     }
     footer {
+        padding-left: 45%;
         font-size: 10px;
-        width: 1000px;
-        margin-left: 2px;
+        margin: center;
     }
     .carousel {
         width: 100%;
